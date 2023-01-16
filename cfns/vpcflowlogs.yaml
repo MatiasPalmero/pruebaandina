@@ -64,6 +64,8 @@ Resources:
       Tags:
           - Key: Proyecto
             Value: !Ref ProjectName
+          - Key: Prueba
+            Value: Prueba2
        
   FlowLogVPC:
     Type: AWS::EC2::FlowLog
