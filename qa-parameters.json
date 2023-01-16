@@ -1,0 +1,76 @@
+[
+    {
+         "ParameterKey": "VPCID",
+         "ParameterValue": "vpc-002794ba16eac6afd"
+     },
+     {
+         "ParameterKey": "ProjectName", 
+         "ParameterValue": "Forecast"
+     },
+     {
+         "ParameterKey": "RetentionInDays", 
+         "ParameterValue": "120"
+     },
+     {
+         "ParameterKey": "ArnKeyDataBucket",
+         "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed"
+     },
+     {
+         "ParameterKey": "ArnKeyProcessedBucket",
+         "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed"
+     },
+     {
+         "ParameterKey": "BucketNameData",
+         "ParameterValue": "koandina-869079689826-data-qa"
+     },
+     {
+         "ParameterKey": "BucketNameProcessed",
+         "ParameterValue": "koandina-869079689826-processed-qa"
+     },
+  
+     {
+          "ParameterKey": "SubnetID1",
+          "ParameterValue": "subnet-02159760e51ad98a0"
+     },
+     {
+          "ParameterKey": "NotebookInstanceType",
+          "ParameterValue": "ml.m5.2xlarge"
+     },
+     {
+          "ParameterKey": "NotebookInstanceName",
+          "ParameterValue": "koandina-sagemaker-forecast-instance-qa"
+     },
+     {
+          "ParameterKey": "NotebookInstaKmsKeyArn",
+          "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed" 
+     },
+     {
+           "ParameterKey": "KMSKeyLogGroup",
+           "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed"
+     },
+     {
+           "ParameterKey": "BucketNameLogging",
+           "ParameterValue": "koandina-869079689826-logs-qa"
+     },
+     {
+           "ParameterKey": "VPCEndpoint",
+           "ParameterValue": "vpce-030d4b2a4181daadf"
+     },
+     {
+           "ParameterKey": "ArnKeySNSTopic",
+           "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed"
+     },  
+     {
+           "ParameterKey": "ARNGitHubAction",
+           "ParameterValue": "arn:aws:iam::667072564464:user/CBO-SAM-IAM-USER-IamUser-1KOI8T0J4ZG9"
+     },
+     {
+           "ParameterKey": "Environment",
+           "ParameterValue": "qa"
+     },
+     {
+           "ParameterKey": "AWSBackupEncriptionKeyARNString",
+           "ParameterValue": "arn:aws:kms:us-east-1:391088630199:key/e77e18b0-bd54-424d-ae3e-47fada43c2ed"
+     }
+  ]
+  
