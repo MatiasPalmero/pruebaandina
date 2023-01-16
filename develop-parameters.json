@@ -9,7 +9,7 @@
    },
    {
        "ParameterKey": "RetentionInDays", 
-       "ParameterValue": "120"
+       "ParameterValue": "150"
    },
    {
        "ParameterKey": "BucketNameData",
